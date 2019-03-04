@@ -6,7 +6,7 @@ import androidx.lifecycle.LiveData
 import com.example.rober.lab7.Data.Contact
 import com.example.rober.lab7.Data.ContactRepository
 
-class ContactViewModel(application : Application) : AndroidViewModel(application) {
+ class ContactViewModel(application : Application) : AndroidViewModel(application) {
 
     private var repository: ContactRepository = ContactRepository(application)
     private var allNotes: LiveData<List<Contact>> = repository.getAllNotes()

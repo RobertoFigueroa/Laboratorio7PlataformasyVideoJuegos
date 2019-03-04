@@ -18,7 +18,7 @@ class Contact(
     @PrimaryKey(autoGenerate = true)
     var id : Int = 0
 
-    @ColumnInfo(typeAffinity = ColumnInfo.BLOB)
-    private val image: ByteArray? = null
+  //  @ColumnInfo(typeAffinity = ColumnInfo.BLOB)
+   // private var image: ByteArray? = null no logre cargar la imagen
 
 }
